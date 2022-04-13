@@ -143,8 +143,16 @@ article a:hover{
 
 .title{
     text-align: center;
-    color: #ffffff;
+    color: blue;
+    font-size: 40px;
 }
+
+.subtitle{
+    text-align: center;
+    color: purple;
+
+}
+
 
 .post_img{
     margin-bottom: 15px;
@@ -253,4 +261,40 @@ article a:hover{
     background-color:red;
     color: blue;
     
+}
+
+.flex-flow-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: auto;
+}
+
+.flex-flow-nowrap{
+    flex-flow: row nowrap ;
+}
+
+.flex-flow-wrap-reverso{
+    flex-flow: row wrap-reverse ;
+}
+
+.flex-flow-wrap{
+    flex-flow: row wrap;
+}
+
+.flex-flow-wrap-reverso{
+    flex-flow: row wrap-reverse;
+}
+
+
+
+.flex-item-flow{
+    background-color: violet;
+    margin: 5px;
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
 }
