@@ -1,2 +1,2 @@
 # curso-html
-Curso HTML da DIO
+**Curso HTML da DIO**
