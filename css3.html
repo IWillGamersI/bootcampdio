@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
     <title>blogCode</title>
 </head>
 <body>
@@ -98,29 +98,90 @@
             </ul>
         </div>
     </header>
-    
+
+
     <section>
-        <header>
-            <h2 class="subtitle">stack's</h2>
-        </header>
-        <article class="post">
-            <header>
-                <a href="">HTML 5</a>
-                <a hidden href="">CSS 3</a>
-                <h3 class="post_title">HTML 5</h3>
-            </header>
-            
-            <div id="html5">
-                <img class="post_img" src="/image/post1.jpg" alt="Imagem de editor de texto mostrando HTML" >
-                <p class="post_content">Referência<a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">clique aqui
-                    </a> HTML é "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
-                    
-                    HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Referência do post</a>
-                <img src="" alt="">
+
+        <h2 class="title" >Fundamentos - display flex</h2>
+       
+
+        <div class="container">
+            <div class="flex">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
             </div>
-        </article>
+            
+            <div class="flex-reverso">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="flex-collums">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+            </div>
+            
+            <div class="flex-collums-reverso">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+            </div>
+        </div>
+        
+
+        <h2 class="title" >display flex wrap</h2>
+
+        <ul class="flex-container tamanho">
+            <li class="flex-items-ul">1</li>
+            <li class="flex-items-ul">2</li>
+            <li class="flex-items-ul">3</li>
+            <li class="flex-items-ul">4</li>
+            <li class="flex-items-ul">5</li>
+            <li class="flex-items-ul">6</li>
+           
+        </ul>
+
+        <ul class="flex-container tamanho-reverso row-reverse">
+            <li class="flex-items-ul">1</li>
+            <li class="flex-items-ul">2</li>
+            <li class="flex-items-ul">3</li>
+            <li class="flex-items-ul">4</li>
+            <li class="flex-items-ul">5</li>
+            <li class="flex-items-ul">6</li>
+            
+        </ul>
+        <div style="display: flex; justify-content: center; ">
+
+            
+            <ul class="flex-container tamanho collums">
+                <li class="flex-items-ul">1</li>
+                <li class="flex-items-ul">2</li>
+                <li class="flex-items-ul">3</li>
+                <li class="flex-items-ul">4</li>
+                <li class="flex-items-ul">5</li>
+                <li class="flex-items-ul">6</li>
+                
+            </ul>
+            <ul class="flex-container tamanho-reverso collums-reverso">
+                <li class="flex-items-ul">1</li>
+                <li class="flex-items-ul">2</li>
+                <li class="flex-items-ul">3</li>
+                <li class="flex-items-ul">4</li>
+                <li class="flex-items-ul">5</li>
+                <li class="flex-items-ul">6</li>
+            </ul>
+        </div>
+            
     </section>
 
     <footer >

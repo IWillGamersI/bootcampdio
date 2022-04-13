@@ -32,6 +32,7 @@ h1{
     flex-direction: column;
 }
 
+
 .title-rede-social{
     width: 40%;
     display: flex;
@@ -140,8 +141,116 @@ article a:hover{
 }
 
 
+.title{
+    text-align: center;
+    color: #ffffff;
+}
+
 .post_img{
     margin-bottom: 15px;
     border-radius: 200px 30px;
     width: 90%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.flex, .flex-collums, .flex-collums-reverso, .flex-reverso{
+    width: 300px;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    display: flex;
+    margin: 10px;
+}
+
+.flex{
+    flex-direction: row;
+}
+
+.flex-reverso{
+    flex-direction: row-reverse;
+    
+}
+
+.flex-collums{
+    flex-direction: column;
+}
+.flex-collums-reverso{
+    flex-direction: column-reverse;
+    
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+    border-radius: 1000px;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    
+}
+
+.tamanho{
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+.tamanho-reverso{
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    flex-wrap:  wrap-reverse;
+}
+
+.flex-items-ul{
+    margin-bottom: 20px;
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    justify-content: center;
+    border-radius: 100px;
+    
+}
+
+.row-reverse li{
+    background-color: aqua;
+    color: red;
+    flex-direction: row-reverse;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.collums{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.collums-reverso{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.collums-reverso .flex-items-ul {
+    background-color:red;
+    color: blue;
+    
 }
