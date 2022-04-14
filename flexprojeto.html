@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleflex.css">
+    <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
           
-    <title>blogCode</title>
+    <title>projetoFlex</title>
 </head>
 <body>
     <header class="side" fixed>
@@ -102,37 +103,144 @@
     </header>
 
     <header class="nav">
-        <h2 class="subtitle">stack's</h2>
-        <a href=""><i class="devicon-html5-plain html"></i> HTML 5</a>
-        <a href="css3.html"><i class="devicon-css3-plain css3"></i> CSS 3</a>
-        <a href="flexprojeto.html"><i class="devicon-css3-plain css3"></i> Projeto Flex Box</a>
+        <h2 class="subtitle">Projeto Flex</h2>
+        <div class="menu">
+            <a href="index.html"><i class="devicon-html5-plain html"></i> HTML 5</a>
+            <a href="css3.html"><i class="devicon-css3-plain css3"></i> CSS 3</a>
+            <a href="flexprojeto.html"><i class="devicon-css3-plain css3"></i> Projeto Flex Box</a>
+        </div>
     </header>
-  
+    <br><br>
     <section>
-        <article class="post">
-            <header>
-                
-                <h3 class="post_title">HTML 5</h3>
-            </header>
-            
-            <div id="html5">
-                <img class="post_img" src="/image/post1.jpg" alt="Imagem de editor de texto mostrando HTML" >
-                <p class="post_content">Referência<a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">clique aqui
-                    </a> HTML é "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
-                    
-                    HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.
-                </p>
-                <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Referência do post</a>
-                <img src="" alt="">
+
+
+        <header class="header">
+            <div class="flex-container menu-flex">
+                <div class="title-flex">
+                    <h1>FlexTurismos</h1>
+                </div>
+                <ul class="flex-container list-items">
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                </ul>
             </div>
-        </article>
+        </header>
+
+        <div class="flex-container apresentacao">
+            <div id="apresentacao" class="texto-apresentacao">
+                <h1>Flex <br>Turismos</h1>
+                <p>O melhor serviço para você!</p>
+                <a href="">Saiba Mais!</a>
+            </div>
+
+            <div>
+                <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
+            </div>
+        </div>
+
+        <div class="flex-container apresentacao" id="quem-somos">
+            <div >
+                <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+            </div>
+
+            <div class="quem-somos">
+                <h2>Quem somos</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+        </div>
+
+        <div class="container-externo" id="servicos">
+            <div class="flex-container" id="servicos-container">
+                <div class="servicos-h2">
+                    <h2>Serviços</h2>
+                </div>
+
+                <div class="list-servicos">
+                    <div>
+                        <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                        <p>Hospedagens</p>
+                        <a href="#">Comprar Agora</a>
+                    </div>
+
+                    <div>
+                    <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p>
+                    <a href="#">Comprar Agora</a>
+                    </div>
+
+                    <div>
+                        <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                        <p>Roteiros personalizados</p>
+                        <a href="#">Comprar Agora</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="flex-container" id="planos">
+            
+            <div><h2>Planos</h2></div>
+
+            <div class="list-planos">
+                <div class="item-planos">
+                    <h3>Plano 1</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                    </ul>
+                    <a href="#">Saiba Mais!</a>
+                </div>
+    
+                <div class="item-planos">
+                    <h3>Plano 2</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                    </ul>
+                    <a href="#">Saiba Mais!</a>
+                </div>
+    
+                <div class="item-planos">
+                    <h3>Plano 3</h3>
+                    <ul>
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                        <li>Área Vip</li>
+                    </ul>
+                    <a href="#">Saiba Mais!</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <footer>
+            <div class="flex-container footer">
+                <p>&copy; 2021 CSS Flexbox</p>
+                <p>Desenvolvido por: Willian Camargo</p>
+
+            </div>
+        </footer>
+
     </section>
 
-    <footer >
+    <footer class="flex-container footer-principal">
         <ul>
             <li class="rede-social">
-                <label for="youtube">
-                </label>
+                
+                
                 <a href="https://www.imperiumsistems.com.br/" target="_blank">
                     
                     <img id="youtube" src="/image/logo.png" alt="">

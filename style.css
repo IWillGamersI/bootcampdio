@@ -406,4 +406,143 @@ article a:hover{
     width: 200px;
 }
 
+.subtitle-flex-grow{
+    color:blue;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff;
+}
 
+.flex-grow-0{
+    flex-grow: 0;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.flex-grow-3{
+    flex-grow: 3;
+}
+
+.basis{
+    background-color: #505050;
+}
+
+.basis-auto{
+    flex-basis: auto;
+}
+
+.basis-60{
+    flex-basis: 60px;
+}
+
+.basis-75{
+    flex-basis: 75px;
+}
+
+@media(max-width:900px){
+    .footer-principal ul{
+        flex-direction: column;
+    }
+
+    .rede-social{
+        width: 100%;
+        
+    }
+
+    .rede-social a{
+       
+        flex-direction: row;
+        margin: auto;
+        
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width: 1190px){
+    .title-rede-social{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-principal a{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-externo{
+        height: auto;
+    }
+
+    .header a{
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 20px;
+        
+    }
+
+    .list-servicos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .list-items{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        justify-content: space-between;
+        
+    }
+
+    .header .menu-flex{
+        width: 100%;
+    }
+
+
+    #planos h2{
+        margin-top: 0;
+    }
+
+    .list-planos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-planos{
+        width: 60%;
+        margin: 20px;
+    }
+
+}
+
+
+@media(max-width: 1350px){
+    .flex-container{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .list-items{
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .menu-flex{
+        flex-direction: row;
+        padding: 0;
+    }
+
+    #title h1{
+        font-size: 25px;
+    }
+}
