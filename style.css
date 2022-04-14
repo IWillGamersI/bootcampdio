@@ -33,6 +33,22 @@ h1{
 }
 
 
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.section-flex{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-rede-social{
     width: 40%;
     display: flex;
@@ -150,9 +166,27 @@ article a:hover{
 .subtitle{
     text-align: center;
     color: purple;
-
 }
 
+.html{
+    color: orangered;
+}
+
+.css3{
+    color: rgb(4, 159, 248);
+}
+
+.nav a{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav a:hover{
+    transition: all 1s; 
+    background-color: #5900ff;
+    margin-bottom: 20px;
+}
 
 .post_img{
     margin-bottom: 15px;
@@ -269,6 +303,7 @@ article a:hover{
     border: 1px solid #ccc;
     max-width: 500px;
     margin: auto;
+    
 }
 
 .flex-flow-nowrap{
@@ -297,4 +332,78 @@ article a:hover{
     width: 100px;
     height: 50px;
     line-height: 50px;
+    
 }
+
+.subtitle-justify{
+    color: #5900ff;
+}
+
+.container-justify{
+    max-width: 500px;
+    width: 500px;
+    border: 1px solid #505050;
+    margin: 0;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.flex-item-justify{
+    background-color: rgb(255, 1, 120);
+    margin: 5px;
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+}
+
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-space-around{
+    justify-content: space-around ;
+    background-color: #5900ff;
+    border: none;
+    border-radius: 20px;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+    background-color: #5900ff;
+    border: none;
+    border-radius: 20px;
+}
+
+.flex-space-evenly{
+    justify-content: space-evenly;
+    background-color: #5900ff;
+    border: none;
+   
+}
+
+.subtitle-justify-collums{
+    color: rgb(255, 1, 120);
+    text-shadow: 0 0 5px #000;
+    text-align: center;
+}
+
+.flex-justify-collums{
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+}
+
+
